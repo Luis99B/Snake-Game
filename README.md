@@ -1,1 +1,1 @@
-Snake Game made in java using JFrame
+# Snake Game made in java using JFrame
