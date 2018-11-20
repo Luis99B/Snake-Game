@@ -20,7 +20,7 @@ public class Snake extends JFrame {
 	public Snake() {
 		super("Snake Game");
 		add(new Board());
-		setLocation(500, 200);
+		setLocation(450, 100);
 		setResizable(false);
 		//setLocationRelativeTo(null);
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

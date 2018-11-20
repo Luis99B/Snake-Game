@@ -103,6 +103,7 @@ public class Board extends JPanel implements ActionListener {
 		
 		score = 0;
 		speed = 0;
+		delay = 70;
 	}
 	
 	private void checkApple() {
@@ -110,15 +111,15 @@ public class Board extends JPanel implements ActionListener {
 			dots++;
 			locateApple();
 			score += 1000;
-				if (delay > 10) {
+				if (delay > 5) {
 					speed++;
 					System.out.println(speed);
 					if (speed % 5 == 0) {
 						delay -= 10;
-						System.out.println(delay);
+						System.out.println(delay + " Delay");
 					}
 				} else {
-					delay = 10;
+					delay = 0;
 				}
 			}
 		}
