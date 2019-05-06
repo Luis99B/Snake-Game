@@ -1,2 +1,2 @@
-#SnakeGame
+# SnakeGame
 Snake Game made in java using JFrame
